@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/menu-style.uss?fileID=7433441132597879392&amp;guid=2ac2a752955993f47bcd94d56bc1584d&amp;type=3#menu-style" />
+    <ui:VisualElement name="Background" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0.5); -unity-background-image-tint-color: rgb(53, 0, 0); opacity: 1; display: none;">
+        <ui:ListView focusable="true" name="DropDown" style="margin-top: 20%;" />
+        <ui:Button text="Resume" display-tooltip-when-elided="true" enable-rich-text="true" name="Resume" class="menu-button" />
+        <ui:Button text="Settings" display-tooltip-when-elided="true" enable-rich-text="true" name="Settings" class="menu-button" />
+        <ui:Button text="Main Menu" display-tooltip-when-elided="true" enable-rich-text="true" name="MainMenu" class="menu-button" />
+    </ui:VisualElement>
+</ui:UXML>

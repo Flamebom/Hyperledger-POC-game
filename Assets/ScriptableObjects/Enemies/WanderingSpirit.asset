@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b630ea1441c6d774f83e47c8ad5d26d6, type: 3}
+  m_Name: WanderingSpirit
+  m_EditorClassIdentifier: 
+  name: WanderingSpirit
+  sprite: {fileID: 21300000, guid: e0803725bf32443459d7f52e7f30a1b4, type: 3}
+  health: 15
+  hasContactDamage: 1
+  baseDamage: 1
+  speed: 5
+  postureDamage: 10
+  gemDrop: 1
+  healthDrop: 1
+  takeKnockback: 1
+  SFXResourceLocation: Audio/SoundEffects/Enemy/EnemyHit

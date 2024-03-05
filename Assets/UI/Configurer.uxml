@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/menu-style.uss?fileID=7433441132597879392&amp;guid=2ac2a752955993f47bcd94d56bc1584d&amp;type=3#menu-style" />
+    <ui:Label tabindex="-1" text="Choose NPC 1!" display-tooltip-when-elided="true" name="NPC1" class="big-label" />
+    <ui:VisualElement name="Background" style="flex-grow: 1; background-color: rgb(0, 0, 0); border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0);">
+        <ui:DropdownField label="NPC 1 Knowledge 1" index="0" choices="1,2,3,4" name="NPC1Knowledge1" class="dropdown-field" />
+        <ui:DropdownField label="NPC 1 Knowledge 2" index="0" choices="1,2,3,4" name="NPC1Knowledge2" class="dropdown-field" />
+        <ui:DropdownField label="NPC 1 Knowledge 3" index="0" choices="1,2,3,4" name="NPC1Knowledge3" class="dropdown-field" />
+        <ui:DropdownField label="NPC 1 Knowledge 4" index="0" choices="1,2,3,4" name="NPC1Knowledge4" class="dropdown-field" />
+        <ui:Button text="Next" display-tooltip-when-elided="true" name="Next" class="menu-button" style="top: auto;" />
+    </ui:VisualElement>
+</ui:UXML>

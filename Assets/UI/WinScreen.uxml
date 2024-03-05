@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/menu-style.uss?fileID=7433441132597879392&amp;guid=2ac2a752955993f47bcd94d56bc1584d&amp;type=3#menu-style" />
+    <ui:VisualElement name="Background" style="flex-grow: 1; background-color: rgb(7, 7, 7);">
+        <ui:Label tabindex="-1" text="YOU WIN!" display-tooltip-when-elided="true" name="Title" style="-unity-text-align: upper-center; flex-shrink: 0; background-color: rgba(0, 0, 0, 0); color: rgb(255, 255, 255); font-size: 40px;" />
+        <ui:Button text="Main Menu" display-tooltip-when-elided="true" name="MainMenu" class="menu-button" />
+    </ui:VisualElement>
+</ui:UXML>
